@@ -5,6 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lightGray"
     tools:context=".MainActivity">
 
     <Button
@@ -17,7 +18,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:background = "@color/darkGray"
-        android:text="@string/first_button"
+        android:text="@string/red_button"
         android:textColor="@color/red"
         android:onClick="onClickBtnColor"
         app:layout_constraintBottom_toTopOf="@+id/yellowButton"
@@ -35,7 +36,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background = "@color/darkGray"
-        android:text="@string/second_button"
+        android:text="@string/yellow_button"
         android:textColor="@color/yellow"
         android:onClick="onClickBtnColor"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +54,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background = "@color/darkGray"
-        android:text="@string/third_button"
+        android:text="@string/green_button"
         android:textColor="@color/green"
         android:onClick="onClickBtnColor"
         app:layout_constraintEnd_toEndOf="parent"
